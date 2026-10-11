@@ -1,7 +1,19 @@
 HELLO IMCA , I AM IN
 
-The Raspberry Pi Pico works like a physical USB keyboard. When you connect it to your computer, Windows recognises it as a keyboard.
-The Arduino program tells the Pico which keys to press. For example, when the program sends the C key, Windows receives it as if you had pressed C on your keyboard.
-To open Command Prompt, the Pico presses the Windows key, types “cmd” in the Start menu, and presses Enter. After waiting for Command Prompt to open, it types the curl command and presses Enter again.
-The program sends each key press and release through USB. Small delays between keystrokes give Windows enough time to process them. If Enter sometimes fails, Windows might not have finished processing the previous input, or the intended window might not have focus.
-The important limitation is that the Pico can send keyboard inputs, but it cannot automatically see whether Command Prompt has opened. A delay can help, but it cannot guarantee that the window is ready.
+The Raspberry Pi Pico works like a physical USB keyboard. When you connect it to your computer,
+Windows recognises it as a keyboard.
+
+The Arduino program tells the Pico which keys to press. For example, when the program sends the C key, 
+Windows receives it as if you had pressed C on your keyboard.
+
+To open Command Prompt, the Pico presses the Windows key, types “cmd” in the Start menu, and presses Enter. 
+After waiting for Command Prompt to open, it types the curl command and presses Enter again.
+
+The program sends each key press and release through USB. 
+Small delays between keystrokes give Windows enough time to process them. 
+If Enter sometimes fails, Windows might not have finished processing the previous input, 
+or the intended window might not have focus.
+
+The important limitation is that the Pico can send keyboard inputs, 
+but it cannot automatically see whether Command Prompt has opened. 
+A delay can help, but it cannot guarantee that the window is ready.
