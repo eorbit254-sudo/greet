@@ -1,3 +1,4 @@
+
 HELLO IMCA , I AM IN
 
 The Raspberry Pi Pico works like a physical USB keyboard. When you connect it to your computer,
@@ -17,3 +18,5 @@ or the intended window might not have focus.
 The important limitation is that the Pico can send keyboard inputs, 
 but it cannot automatically see whether Command Prompt has opened. 
 A delay can help, but it cannot guarantee that the window is ready.
+
+Updated - 11/10/26
